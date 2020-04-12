@@ -5,16 +5,9 @@ This repository collects information and explanations of Neural Network Architec
 
 ## Neural Network Architectures (original papers)
 
-* **Variational Auto Encoder (VAE)**
-
-Authors: Diederik P. Kingma, Max Welling
-
-Year: 2013
-
-Link to paper: https://arxiv.org/pdf/1312.6114.pdf
-
 | NN Architecture | Year | Authors | Link to original paper |
 | ------------- | ------------- | ------------- | ------------- |
+| LSTM  | 1997 | Sepp Hochreiter, Jürgen Schmidhuber | http://www.bioinf.jku.at/publications/older/2604.pdf |
 | Variational Auto Encoder (VAE)  | 2013 | Diederik P. Kingma, Max Welling | https://arxiv.org/pdf/1312.6114.pdf |
 
 
