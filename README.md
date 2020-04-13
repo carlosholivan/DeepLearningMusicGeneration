@@ -21,7 +21,7 @@ This repository collects information and explanations of Neural Network Architec
 
 * **MusicVAE (Magenta)**
 
-<img src="Images/musicVAE.jpg" width="480">
+<img src="Images/musicVAE.png" width="480">
 
 Web page: https://magenta.tensorflow.org/music-vae
 
