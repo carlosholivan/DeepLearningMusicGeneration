@@ -47,7 +47,7 @@ Github (code):
 Articles of interest: 
 
 
-### 2018
+### 2017
 
 * **MuseGAN**
 
