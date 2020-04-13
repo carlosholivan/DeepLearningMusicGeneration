@@ -7,8 +7,9 @@ This repository collects information and explanations of Neural Network Architec
 
 | NN Architecture | Year | Authors | Link to original paper |
 | ------------- | ------------- | ------------- | ------------- |
-| LSTM  | 1997 | Sepp Hochreiter, Jürgen Schmidhuber | http://www.bioinf.jku.at/publications/older/2604.pdf |
-| Variational Auto Encoder (VAE)  | 2013 | Diederik P. Kingma, Max Welling | https://arxiv.org/pdf/1312.6114.pdf |
+| Long Short-Term Memory (LSTM) | 1997 | Sepp Hochreiter, Jürgen Schmidhuber | http://www.bioinf.jku.at/publications/older/2604.pdf |
+| Variational Auto Encoder (VAE) | 2013 | Diederik P. Kingma, Max Welling | https://arxiv.org/pdf/1312.6114.pdf |
+| Generative Adversarial Networks (GAN) | 2014 | Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio | https://arxiv.org/pdf/1406.2661.pdf |
 
 
 ## Deep Learning Models for Music Generation
@@ -44,6 +45,20 @@ Link to paper: https://arxiv.org/pdf/1809.04281.pdf
 Github (code): 
 
 Articles of interest: 
+
+
+### 2018
+
+* **MuseGAN**
+
+<img src="Images/musegan_ismir2017.jpg" width="1000">
+
+Web page: https://salu133445.github.io/musegan/
+
+Link to paper: https://arxiv.org/pdf/1709.06298.pdf
+
+Github (code): https://github.com/salu133445/musegan
+
 
 ## Author
 
