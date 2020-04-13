@@ -32,7 +32,8 @@ Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-o
 
 
 * **Music Transformer (Magenta)**
-<img src="https://s3.amazonaws.com/postersession.ai/69b5d29d-37be-4c38-8e3c-779118ec0551.jpg"  width="1000">
+
+<img src="Images/transformer_poster.jpg" width="1000">
 
 Web page: https://magenta.tensorflow.org/music-transformer
 
