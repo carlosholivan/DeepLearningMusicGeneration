@@ -20,7 +20,8 @@ This repository collects information and explanations of Neural Network Architec
 ### 2018
 
 * **MusicVAE (Magenta)**
-<img src="https://magenta.tensorflow.org/assets/music_vae/architecture.png"  width="480">
+
+<img src="Images/musicVAE.jpg" width="480">
 
 Web page: https://magenta.tensorflow.org/music-vae
 
@@ -29,6 +30,7 @@ Link to paper: https://arxiv.org/pdf/1803.05428.pdf
 Github (code): https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
 
 Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c
+
 
 
 * **Music Transformer (Magenta)**
