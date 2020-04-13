@@ -28,6 +28,20 @@ Link to paper: https://arxiv.org/pdf/1803.05428.pdf
 
 Github (code): https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
 
+Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c
+
+
+* **Music Transformer (Magenta)**
+<img src="https://s3.amazonaws.com/postersession.ai/69b5d29d-37be-4c38-8e3c-779118ec0551.jpg"  width="1000">
+
+Web page: https://magenta.tensorflow.org/music-transformer
+
+Link to paper: https://arxiv.org/pdf/1809.04281.pdf
+
+Github (code): 
+
+Articles of interest: 
+
 ## Author
 
 **Carlos Hernández**: carloshero@unizar.es
