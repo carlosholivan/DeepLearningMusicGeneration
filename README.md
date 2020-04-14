@@ -1,9 +1,22 @@
-# Neural Network Architectures
+# DEEP LEARNING FOR MUSIC GENERATION
 
 This repository collects information and explanations of Neural Network Architectures which are used in Music Generation.
 
+**Table of Contents**
 
-## Neural Network Architectures (original papers)
+- [Neural Network Architectures](#neural-network-architectures)
+- [Deep Learning Models for Music Generation](#deep-learning-models-for-music-generation)
+  - [2020](#2020)
+  - [2019](#2019)
+  - [2018](#2018)
+    - [MusicVAE (Magenta)](#musicvae-magenta)
+    - [Music Transformer (Magenta)](#music-transformer-magenta)
+  - [2017](#2017)
+    - [MuseGAN](#musegan)
+- [Author](#author)
+
+
+## Neural Network Architectures
 
 | NN Architecture | Year | Authors | Link to original paper |
 | ------------- | ------------- | ------------- | ------------- |
@@ -20,7 +33,7 @@ This repository collects information and explanations of Neural Network Architec
 
 ### 2018
 
-* **MusicVAE (Magenta)**
+#### MusicVAE (Magenta)
 
 <img src="Images/musicVAE.png" width="480">
 
@@ -34,7 +47,7 @@ Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-o
 
 
 
-* **Music Transformer (Magenta)**
+#### Music Transformer (Magenta)
 
 <img src="Images/transformer_poster.jpg" width="1000">
 
@@ -49,7 +62,7 @@ Articles of interest:
 
 ### 2017
 
-* **MuseGAN**
+#### MuseGAN
 
 <img src="Images/musegan_ismir2017.jpg" width="1000">
 
