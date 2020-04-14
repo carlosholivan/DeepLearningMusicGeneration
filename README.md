@@ -15,6 +15,7 @@ This repository collects information and explanations of Neural Network Architec
   - [2017](#2017)
     - [MuseGAN](#musegan)
 - [Articles](#articles)
+  - [2018](#2018)
 - [Datasets](#datasets)
 - [Author](#author)
 
@@ -69,11 +70,14 @@ Articles of interest:
 
 <img src="Images/musegan.png" width="600">
 
-[[Web]](https://salu133445.github.io/musegan/) [[Poster]](Images/musegan_ismir2017.jpg) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Code]](https://github.com/salu133445/musegan)
+[[Web]](https://salu133445.github.io/musegan/) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Poster]](Images/musegan_ismir2017.jpg) [[Code]](https://github.com/salu133445/musegan)
 
 
 ## Articles
 
+### 2018
+
+* MorpheuS: generating structured music with constrained patterns and tension [[Paper]](https://arxiv.org/pdf/1812.04832.pdf)
 
 
 ## Datasets
