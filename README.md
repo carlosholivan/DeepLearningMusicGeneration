@@ -88,6 +88,8 @@ Articles of interest:
 
 ## Composing Music with Recurrent Neural Networks
 
+<img src="http://www.hexahedria.com/media/uploads/2015/08/diags-figure8.pdf.png" width="400">
+
 [[Web]](http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/)
 
 ## <a name="articles"></a>Articles (per year of submission)
