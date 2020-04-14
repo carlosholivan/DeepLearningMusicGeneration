@@ -46,13 +46,11 @@ Web page: https://openai.com/blog/musenet/
 
 <img src="Images/musicVAE.png" width="600">
 
-Web page: https://magenta.tensorflow.org/music-vae
+[[Web]](https://magenta.tensorflow.org/music-vae) [[Paper]](https://arxiv.org/pdf/1803.05428.pdf) [[Code]](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae)
 
-Link to paper: https://arxiv.org/pdf/1803.05428.pdf
 
-Github (code): https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae
-
-Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c
+Articles of interest: 
+* https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c
 
 
 
@@ -71,7 +69,7 @@ Articles of interest:
 
 <img src="Images/musegan.png" width="600">
 
-[[Web]](https://salu133445.github.io/musegan/) [[Poster]]Images/musegan_ismir2017.jpg) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Code]](https://github.com/salu133445/musegan)
+[[Web]](https://salu133445.github.io/musegan/) [[Poster]](Images/musegan_ismir2017.jpg) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Code]](https://github.com/salu133445/musegan)
 
 
 ## Articles
