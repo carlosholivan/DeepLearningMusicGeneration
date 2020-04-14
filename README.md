@@ -60,7 +60,7 @@ Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-o
 
 Web page: https://magenta.tensorflow.org/music-transformer
 
-Poster: [Poster](Slides/transformer_poster.jpg)
+Poster: [Poster](Images/transformer_poster.jpg)
 
 Link to paper: https://arxiv.org/pdf/1809.04281.pdf
 
@@ -77,7 +77,7 @@ Articles of interest:
 
 Web page: https://salu133445.github.io/musegan/
 
-Poster: [Poster](images/musegan_ismir2017.jpg)
+Poster: [Poster](Images/musegan_ismir2017.jpg)
 
 Link to paper: https://arxiv.org/pdf/1709.06298.pdf
 
