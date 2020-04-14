@@ -61,7 +61,7 @@ Web page: https://openai.com/blog/musenet/
 
 
 Articles of interest: 
-* https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c
+* MusicVAE: Understanding of the googles work for interpolating two music sequences [[Web]](https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c)
 
 
 
