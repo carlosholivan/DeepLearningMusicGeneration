@@ -19,9 +19,9 @@ This repository collects information and explanations of Neural Network Architec
 
 ## Neural Network Architectures
 
-| NN Architecture | Year | Authors | Link to original paper |
-| ------------- | ------------- | ------------- | ------------- |
-| Long Short-Term Memory (LSTM) | 1997 | Sepp Hochreiter, Jürgen Schmidhuber | http://www.bioinf.jku.at/publications/older/2604.pdf |
+| NN Architecture | Year | Authors | Link to original paper | Slides |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Long Short-Term Memory (LSTM) | 1997 | Sepp Hochreiter, Jürgen Schmidhuber | http://www.bioinf.jku.at/publications/older/2604.pdf | [LSTM.pdf](Slides/LSTM_v1.pdf) |
 | Variational Auto Encoder (VAE) | 2013 | Diederik P. Kingma, Max Welling | https://arxiv.org/pdf/1312.6114.pdf |
 | Generative Adversarial Networks (GAN) | 2014 | Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio | https://arxiv.org/pdf/1406.2661.pdf |
 
@@ -33,6 +33,8 @@ This repository collects information and explanations of Neural Network Architec
 ### 2019
 
 #### MuseNet
+
+Web page: https://openai.com/blog/musenet/
 
 ### 2018
 
