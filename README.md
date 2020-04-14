@@ -57,7 +57,7 @@ Web page: https://openai.com/blog/musenet/
 
 <img src="Images/musicVAE.png" width="600">
 
-[[Web]](https://magenta.tensorflow.org/music-vae) [[Paper]](https://arxiv.org/pdf/1803.05428.pdf) [[Code]](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae)
+[[Web]](https://magenta.tensorflow.org/music-vae) [[Paper]](https://arxiv.org/pdf/1803.05428.pdf) [[Code]](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae) [[Google Colab]](https://colab.research.google.com/notebooks/magenta/music_vae/music_vae.ipynb)
 
 
 Articles of interest: 
