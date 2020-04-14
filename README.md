@@ -40,7 +40,7 @@ Web page: https://openai.com/blog/musenet/
 
 #### MusicVAE (Magenta)
 
-<img src="Images/musicVAE.png" width="480">
+<img src="Images/musicVAE.png" width="600">
 
 Web page: https://magenta.tensorflow.org/music-vae
 
@@ -54,9 +54,11 @@ Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-o
 
 #### Music Transformer (Magenta)
 
-<img src="Images/transformer_poster.jpg" width="1000">
+<img src="Images/transformer.png" width="600">
 
 Web page: https://magenta.tensorflow.org/music-transformer
+
+Poster: [Poster](Slides/transformer_poster.jpg)
 
 Link to paper: https://arxiv.org/pdf/1809.04281.pdf
 
