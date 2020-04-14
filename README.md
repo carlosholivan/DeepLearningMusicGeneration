@@ -2,7 +2,7 @@
 
 This repository collects information and explanations of Neural Network Architectures which are used in Music Generation.
 
-**Table of Contents**
+## Table of Contents
 
 - [Neural Network Architectures](#neural-network-architectures)
 - [Deep Learning Models for Music Generation](#deep-learning-models-for-music-generation)
