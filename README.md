@@ -15,7 +15,7 @@ This repository collects information and explanations of Neural Network Architec
   - [2017](#2017)
     - [MuseGAN](#musegan)
 - [Articles](#articles)
-  - [2018](#2018)
+  - [2018](#2018articles)
 - [Datasets](#datasets)
 - [Author](#author)
 
@@ -75,7 +75,7 @@ Articles of interest:
 
 ## Articles
 
-### 2018
+### <a name="2018articles"></a>2018 
 
 * MorpheuS: generating structured music with constrained patterns and tension [[Paper]](https://arxiv.org/pdf/1812.04832.pdf)
 
