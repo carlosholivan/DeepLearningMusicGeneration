@@ -90,13 +90,15 @@ Articles of interest:
 
 * MorpheuS: generating structured music with constrained patterns and tension [[Paper]](https://arxiv.org/pdf/1812.04832.pdf)
 
+* Music Transformer [[Paper]](https://arxiv.org/pdf/1809.04281.pdf)
 
 ### <a name="2017articles"></a>2017 
 
+* MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment [[Paper]](https://arxiv.org/pdf/1709.06298.pdf)
 
 ### <a name="2016articles"></a>2016
 
-Imposing higher-level Structure in Polyphonic Music Generation using Convolutional Restricted Boltzmann Machines and Constraints [[Paper]](https://arxiv.org/pdf/1612.04742.pdf)
+* Imposing higher-level Structure in Polyphonic Music Generation using Convolutional Restricted Boltzmann Machines and Constraints [[Paper]](https://arxiv.org/pdf/1612.04742.pdf)
 
 
 ## Datasets
