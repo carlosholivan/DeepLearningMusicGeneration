@@ -60,13 +60,7 @@ Articles of interest: https://medium.com/@musicvaeubcse/musicvae-understanding-o
 
 <img src="Images/transformer.png" width="600">
 
-Web page: https://magenta.tensorflow.org/music-transformer
-
-Poster: [Poster](Images/transformer_poster.jpg)
-
-Link to paper: https://arxiv.org/pdf/1809.04281.pdf
-
-Github (code): 
+[[Web]](https://magenta.tensorflow.org/music-transformer) [[Poster]](Images/transformer_poster.jpg) [[Paper]](https://arxiv.org/pdf/1809.04281.pdf)
 
 Articles of interest: 
 
