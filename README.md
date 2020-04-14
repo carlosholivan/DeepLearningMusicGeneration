@@ -6,13 +6,13 @@ This repository collects information and explanations of Neural Network Architec
 
 - [Neural Network Architectures](#neural-network-architectures)
 - [Deep Learning Models for Music Generation](#deep-learning-models-for-music-generation)
-  - [2020](#2020)
-  - [2019](#2019)
+  - [2020](#2020deep)
+  - [2019](#2019deep)
     - [MuseNet](#musenet)
-  - [2018](#2018)
+  - [2018](#2018deep)
     - [MusicVAE (Magenta)](#musicvae-magenta)
     - [Music Transformer (Magenta)](#music-transformer-magenta)
-  - [2017](#2017)
+  - [2017](#2017deep)
     - [MuseGAN](#musegan)
 - [Articles](#articles)
   - [2018](#2018articles)
@@ -33,15 +33,15 @@ This repository collects information and explanations of Neural Network Architec
 
 ## Deep Learning Models for Music Generation
 
-### 2020
+### <a name="2020deep"></a>2020
 
-### 2019
+### <a name="2019deep"></a>2019
 
 #### MuseNet
 
 Web page: https://openai.com/blog/musenet/
 
-### 2018
+### <a name="2018deep"></a>2018
 
 #### MusicVAE (Magenta)
 
@@ -64,7 +64,7 @@ Articles of interest:
 Articles of interest: 
 
 
-### 2017
+### <a name="2017deep"></a>2017
 
 #### MuseGAN
 
