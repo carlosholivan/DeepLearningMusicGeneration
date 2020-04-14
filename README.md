@@ -114,7 +114,7 @@ Articles of interest:
 * MÜLLER, Meinard. Fundamentals of music processing: Audio, analysis, algorithms, applications. Springer, 2015.
 
 
-## Other References
+## Other Resources
 
 * Bustena (web in spanish to learn harmony theory) [[Web]](http://www.bustena.com/curso-de-armonia-i/)
 
