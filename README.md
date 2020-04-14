@@ -14,12 +14,15 @@ This repository collects information and explanations of Neural Network Architec
     - [Music Transformer (Magenta)](#music-transformer-magenta)
   - [2017](#2017deep)
     - [MuseGAN](#musegan)
+  - [2016](#2016deep)
+  - [2015](#2015deep)
+    - [Composing Music with Recurrent Neural Networks](#composing-music-with-recurrent-neural-networks)
 - [Articles (per year of submission)](#articles)
   - [2020](#2020articles)
   - [2019](#2019articles)
   - [2018](#2018articles)
   - [2017](#2017articles)
-  - [2017](#2017articles)
+  - [2016](#2016articles)
 - [Datasets](#datasets)
 - [Research Groups and Labs](#research-groups-and-labs)
 - [Books and References](#books-and-references)
@@ -79,6 +82,13 @@ Articles of interest:
 
 [[Web]](https://salu133445.github.io/musegan/) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Poster]](Images/musegan_ismir2017.jpg) [[Code]](https://github.com/salu133445/musegan)
 
+### <a name="2016deep"></a>2016
+
+### <a name="2015deep"></a>2015
+
+## Composing Music with Recurrent Neural Networks
+
+[[Web]] http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/
 
 ## <a name="articles"></a>Articles (per year of submission)
 
@@ -97,6 +107,8 @@ Articles of interest:
 ### <a name="2017articles"></a>2017 
 
 * MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment [[Paper]](https://arxiv.org/pdf/1709.06298.pdf)
+
+* Generating Polyphonic Music Using Tied Parallel Networks [[Paper]](http://www.hexahedria.com/files/2017generatingpolyphonic.pdf)
 
 ### <a name="2016articles"></a>2016
 
