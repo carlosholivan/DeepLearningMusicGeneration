@@ -119,6 +119,8 @@ Articles of interest:
 
 ## Datasets
 
+* The Lakh MIDI Dataset v0.1 [[Web]](https://colinraffel.com/projects/lmd/)
+
 
 ## Research Groups and Labs
 
