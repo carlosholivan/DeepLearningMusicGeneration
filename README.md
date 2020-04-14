@@ -22,6 +22,8 @@ This repository collects information and explanations of Neural Network Architec
   - [2017](#2017articles)
 - [Datasets](#datasets)
 - [Research Groups and Labs](#research-groups-and-labs)
+- [Books and References](#books-and-references)
+- [Other Resources](#other-resources)
 - [Author](#author)
 
 
@@ -105,6 +107,16 @@ Articles of interest:
 
 
 ## Research Groups and Labs
+
+
+## Books and References
+
+* MÜLLER, Meinard. Fundamentals of music processing: Audio, analysis, algorithms, applications. Springer, 2015.
+
+
+## Other References
+
+* Bustena (web in spanish to learn harmony theory) [[Web]](http://www.bustena.com/curso-de-armonia-i/)
 
 
 ## Author
