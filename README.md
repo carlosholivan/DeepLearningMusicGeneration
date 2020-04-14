@@ -14,6 +14,8 @@ This repository collects information and explanations of Neural Network Architec
     - [Music Transformer (Magenta)](#music-transformer-magenta)
   - [2017](#2017)
     - [MuseGAN](#musegan)
+- [Articles](#articles)
+- [Datasets](#datasets)
 - [Author](#author)
 
 
@@ -82,6 +84,14 @@ Poster: [Poster](Images/musegan_ismir2017.jpg)
 Link to paper: https://arxiv.org/pdf/1709.06298.pdf
 
 Github (code): https://github.com/salu133445/musegan
+
+
+## Articles
+
+
+
+## Datasets
+
 
 
 ## Author
