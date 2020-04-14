@@ -71,13 +71,7 @@ Articles of interest:
 
 <img src="Images/musegan.png" width="600">
 
-Web page: https://salu133445.github.io/musegan/
-
-Poster: [Poster](Images/musegan_ismir2017.jpg)
-
-Link to paper: https://arxiv.org/pdf/1709.06298.pdf
-
-Github (code): https://github.com/salu133445/musegan
+[[Web]](https://salu133445.github.io/musegan/) [[Poster]]Images/musegan_ismir2017.jpg) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Code]](https://github.com/salu133445/musegan)
 
 
 ## Articles
