@@ -14,12 +14,14 @@ This repository collects information and explanations of Neural Network Architec
     - [Music Transformer (Magenta)](#music-transformer-magenta)
   - [2017](#2017deep)
     - [MuseGAN](#musegan)
-- [Articles](#articles)
+- [Articles (per year of submission)](#articles)
   - [2020](#2020articles)
   - [2019](#2019articles)
   - [2018](#2018articles)
   - [2017](#2017articles)
+  - [2017](#2017articles)
 - [Datasets](#datasets)
+- [Research Groups and Labs](#research-groups-and-labs)
 - [Author](#author)
 
 
@@ -76,11 +78,13 @@ Articles of interest:
 [[Web]](https://salu133445.github.io/musegan/) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Poster]](Images/musegan_ismir2017.jpg) [[Code]](https://github.com/salu133445/musegan)
 
 
-## Articles
+## <a name="articles"></a>Articles (per year of submission)
 
 ### <a name="2020articles"></a>2020
 
-### <a name="2019articles"></a>20189
+### <a name="2019articles"></a>2019
+
+* Conditional LSTM-GAN for Melody Generation from Lyrics [[Paper]](https://arxiv.org/pdf/1908.05551.pdf)
 
 ### <a name="2018articles"></a>2018 
 
@@ -90,8 +94,15 @@ Articles of interest:
 ### <a name="2017articles"></a>2017 
 
 
+### <a name="2016articles"></a>2016
+
+Imposing higher-level Structure in Polyphonic Music Generation using Convolutional Restricted Boltzmann Machines and Constraints [[Paper]](https://arxiv.org/pdf/1612.04742.pdf)
+
+
 ## Datasets
 
+
+## Research Groups and Labs
 
 
 ## Author
