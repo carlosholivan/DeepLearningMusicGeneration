@@ -56,12 +56,6 @@ Web page: https://openai.com/blog/musenet/
 
 ### <a name="2018deep"></a>2018
 
-#### Maia Music Generator
-
-<img src="Images/maia.png" width="600">
-
-[[Web]](https://maia.music.blog/2019/05/13/maia-a-new-music-generator/)
-
 
 #### MusicVAE (Magenta)
 
@@ -73,7 +67,11 @@ Web page: https://openai.com/blog/musenet/
 Articles of interest: 
 * MusicVAE: Understanding of the googles work for interpolating two music sequences [[Web]](https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c)
 
+#### Maia Music Generator
 
+<img src="Images/maia.png" width="600">
+
+[[Web]](https://maia.music.blog/2019/05/13/maia-a-new-music-generator/)
 
 #### Music Transformer (Magenta)
 
