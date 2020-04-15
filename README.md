@@ -24,6 +24,7 @@ This repository collects information and explanations of Neural Network Architec
   - [2017](#2017articles)
   - [2016](#2016articles)
 - [Datasets](#datasets)
+- [Journals and Conferences](#journals-and-conferences)
 - [Research Groups and Labs](#research-groups-and-labs)
 - [Books and References](#books-and-references)
 - [Other Resources](#other-resources)
@@ -120,6 +121,9 @@ Articles of interest:
 ## Datasets
 
 * The Lakh MIDI Dataset v0.1 [[Web]](https://colinraffel.com/projects/lmd/)
+
+
+## Journals and Conferences
 
 
 ## Research Groups and Labs
