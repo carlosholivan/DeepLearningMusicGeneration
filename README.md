@@ -28,6 +28,7 @@ This repository collects information and explanations of Neural Network Architec
 - [Journals and Conferences](#journals-and-conferences)
 - [Research Groups and Labs](#research-groups-and-labs)
 - [Books and References](#books-and-references)
+- [Other Apps for Music Generation with AI](#other-apps-with-music-generation-with-ai)
 - [Other Resources](#other-resources)
 - [Author](#author)
 
@@ -140,6 +141,23 @@ Articles of interest:
 ## Books and References
 
 * MÜLLER, Meinard. Fundamentals of music processing: Audio, analysis, algorithms, applications. Springer, 2015.
+
+
+## Other Apps for Music Generation with AI
+
+* AIVA (paid) [[Web]](https://www.aiva.ai/)
+
+* Amper Music (paid) [[Web]](https://www.ampermusic.com/)
+
+* Ecrett Music (paid) [[Web]](https://ecrettmusic.com/)
+
+* Humtap (free, iOS) [[Web]](https://www.humtap.com/)
+
+* Amadeus Code (free/paid, iOS) [[Web]](https://amadeuscode.com/top)
+
+* Computoser (free) [[Web]](computoser.com)
+
+* Brain.fm (paid) [[Web]](https://www.brain.fm/login?next=/app/player)
 
 
 ## Other Resources
