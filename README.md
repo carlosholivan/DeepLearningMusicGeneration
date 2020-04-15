@@ -16,6 +16,7 @@ This repository collects information and explanations of Neural Network Architec
   - [2017](#2017deep)
     - [MuseGAN](#musegan)
   - [2016](#2016deep)
+    - [DeepBach](#deepbach)
   - [2015](#2015deep)
     - [Composing Music with Recurrent Neural Networks](#composing-music-with-recurrent-neural-networks)
 - [Articles (per year of submission)](#articles)
