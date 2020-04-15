@@ -9,7 +9,7 @@ This repository collects information and explanations of Neural Network Architec
   - [2020](#2020deep)
   - [2019](#2019deep)
     - [MuseNet](#musenet)
-    - [Maia Musc Generator](#maia-music-generator)
+    - [Maia Music Generator](#maia-music-generator)
   - [2018](#2018deep)
     - [MusicVAE (Magenta)](#musicvae-magenta)
     - [Music Transformer (Magenta)](#music-transformer-magenta)
