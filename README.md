@@ -93,9 +93,16 @@ Articles of interest:
 
 ### <a name="2016deep"></a>2016
 
+#### DeepBach
+
+<img src="Images/deepbach.jpeg" width="300">
+
+[[Web]](http://www.flow-machines.com/history/projects/deepbach-polyphonic-music-generation-bach-chorales/) [[Paper]](https://arxiv.org/pdf/1612.01010.pdf) [[Code]](https://github.com/Ghadjeres/DeepBach)
+
+
 ### <a name="2015deep"></a>2015
 
-## Composing Music with Recurrent Neural Networks
+#### Composing Music with Recurrent Neural Networks
 
 <img src="http://www.hexahedria.com/media/uploads/2015/08/diags-figure8.pdf.png" width="400">
 
@@ -123,6 +130,8 @@ Articles of interest:
 
 ### <a name="2016articles"></a>2016
 
+* DeepBach: a Steerable Model for Bach Chorales Generation [[Paper]](https://arxiv.org/pdf/1612.01010.pdf)
+
 * Imposing higher-level Structure in Polyphonic Music Generation using Convolutional Restricted Boltzmann Machines and Constraints [[Paper]](https://arxiv.org/pdf/1612.04742.pdf)
 
 
@@ -136,6 +145,11 @@ Articles of interest:
 
 ## Research Groups and Labs
 
+* Audiolabs Erlangen [[Web]](https://www.audiolabs-erlangen.de/)
+
+* Colin Raffel [[Web]](https://colinraffel.com/)
+
+* François Pachet [[Web]](https://www.francoispachet.fr/)
 
 ## Books and References
 
