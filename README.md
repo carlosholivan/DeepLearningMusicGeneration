@@ -28,7 +28,7 @@ This repository collects information and explanations of Neural Network Architec
 - [Journals and Conferences](#journals-and-conferences)
 - [Research Groups and Labs](#research-groups-and-labs)
 - [Books and References](#books-and-references)
-- [Other Apps for Music Generation with AI](#other-apps-with-music-generation-with-ai)
+- [Other Apps for Music Generation with AI](#other-apps-for-music-generation-with-ai)
 - [Other Resources](#other-resources)
 - [Author](#author)
 
