@@ -138,7 +138,7 @@ Articles of interest:
 
 ## Datasets
 
-* The Lakh MIDI Dataset v0.1 [[Web]](https://colinraffel.com/projects/lmd/)
+* The Lakh MIDI Dataset v0.1 [[Web]](https://colinraffel.com/projects/lmd/) [[Tutorial IPython]](https://nbviewer.jupyter.org/github/craffel/midi-dataset/blob/master/Tutorial.ipynb)
 
 
 ## Journals and Conferences
