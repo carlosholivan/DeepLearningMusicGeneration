@@ -143,6 +143,12 @@ Articles of interest:
 
 ## Journals and Conferences
 
+* IEEE Signal Processing [[Web]](https://signalprocessingsociety.org/publications-resources)
+
+* IET Signal Processing Journal [[Web]](https://digital-library.theiet.org/content/journals/iet-spr)
+
+* ELSEVIER Signal Processing Journal [[Web]](https://www.journals.elsevier.com/signal-processing)
+
 
 ## Research Groups and Labs
 
