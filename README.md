@@ -50,12 +50,32 @@ This repository collects information and explanations of Neural Network Architec
 
 ## Sources Separation
 
-* Google Colab Notebook with Demucs vs Spleeter comparison: [[Colab]](https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
+* Google Colab Notebook with Demucs vs Spleeter comparison: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
 
 ### <a name="demucs-by-facebook"></a>Demucs by Facebook
 
+<img src="Images/demucs.png" width="600">
+
+[[Web and Code]](https://github.com/facebookresearch/demucs) [[Paper]](https://hal.archives-ouvertes.fr/hal-02379796/document)
+
 ### <a name="spleeter-by-deezer"></a>Spleeter by Deezer
 
+<img src="Images/spleeter.jpg" width="600">
+
+Pre-trained models:
+* Vocals (singing voice) / accompaniment separation (2 stems)
+* Vocals / drums / bass / other separation (4 stems)
+* Vocals / drums / bass / piano / other separation (5 stems)
+
+Papers: 
+
+* Andreas Jansson, Eric J. Humphrey, Nicola Montecchio, Rachel Bittner, Aparna Kumar, and Tillman Weyde. Singingvoice  separation  with  deep  u-net  convolutional  networks.  InProceedings of the International Society for MusicInformation Retrieval Conference (ISMIR), pages 323–332, 2017. [[Link]](https://openaccess.city.ac.uk/id/eprint/19289/1/)
+
+Other references to see: 
+
+* MIMILAKIS, Stylianos I.; DROSSOS, Konstantinos; SCHULLER, Gerald. Unsupervised Interpretable Representation Learning for Singing Voice Separation. arXiv preprint arXiv:2003.01567, 2020. [[Link]](https://arxiv.org/pdf/2003.01567.pdf)
+
+[[Web and Code]](https://github.com/deezer/spleeter) [[Paper]](http://archives.ismir.net/ismir2019/latebreaking/000036.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb)
 
 ## Deep Learning Models for Music Generation
 
