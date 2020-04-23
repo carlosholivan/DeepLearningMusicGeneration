@@ -50,7 +50,7 @@ This repository collects information and explanations of Neural Network Architec
 
 ## Sources Separation
 
-* Google Colab Notebook with Demucs vs Spleeter comparison: [![Open In Colab](]https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
+* Google Colab Notebook with Demucs vs Spleeter comparison: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
 
 ### <a name="demucs-by-facebook"></a>Demucs by Facebook
 
