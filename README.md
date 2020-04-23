@@ -5,6 +5,9 @@ This repository collects information and explanations of Neural Network Architec
 ## Table of Contents
 
 - [Neural Network Architectures](#neural-network-architectures)
+- [Souces Separation](#sources-separation)
+  - [Demucs by Facebook](#demucs-by-facebook)
+  - [Spleeter by Deezer](#dspleeter-by-deezer)
 - [Deep Learning Models for Music Generation](#deep-learning-models-for-music-generation)
   - [2020](#2020deep)
   - [2019](#2019deep)
@@ -43,6 +46,15 @@ This repository collects information and explanations of Neural Network Architec
 | Variational Auto Encoder (VAE) | 2013 | Diederik P. Kingma, Max Welling | https://arxiv.org/pdf/1312.6114.pdf |
 | Generative Adversarial Networks (GAN) | 2014 | Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio | https://arxiv.org/pdf/1406.2661.pdf |  | 
 | Transformer | 2017 | Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin | https://arxiv.org/pdf/1706.03762.pdf | |
+
+
+## Sources Separation
+
+* Google Colab Notebook with Demucs vs Spleeter comparison: [[Colab]](https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
+
+### <a name="demucs-by-facebook"></a>Demucs by Facebook
+
+### <a name="spleeter-by-deezer"></a>Spleeter by Deezer
 
 
 ## Deep Learning Models for Music Generation
