@@ -175,11 +175,27 @@ Articles of interest:
 
 ## Journals and Conferences
 
-* IEEE Signal Processing [[Web]](https://signalprocessingsociety.org/publications-resources)
+* International Society for Music Information Retrieval (ISMIR) [[Web]](https://www.ismir.net/)
+
+* IEEE Signal Processing (ICASSP) [[Web]](https://signalprocessingsociety.org/publications-resources)
+
+* ELSEVIER Signal Processing Journal [[Web]](https://www.journals.elsevier.com/signal-processing)
+
+* Association for the Advancement of Artificial Intelligence (AAAI) [[Web]](https://www.aaai.org/)
+
+* Journal of Artificial Intelligence Research (JAIR) [[Web]](https://www.jair.org/index.php/jair)
+
+* International Joint Conferences on Artificial Intelligence (IJCAI) [[Web]](https://www.ijcai.org/)
+
+* International Conference on Learning Representations (ICLR) [[Web]](https://iclr.cc)
 
 * IET Signal Processing Journal [[Web]](https://digital-library.theiet.org/content/journals/iet-spr)
 
-* ELSEVIER Signal Processing Journal [[Web]](https://www.journals.elsevier.com/signal-processing)
+* Journal of New Music Research (JNMR) [[Web]](https://www.tandfonline.com/loi/nnmr20)
+
+* Audio Engineering Society - Conference on Semantic Audio (AES) [[Web]](http://www.aes.org/)
+
+* International Conference on Digital Audio Effects (DAFx) [[Web]]http://dafx.de/)
 
 
 ## Research Groups and Labs
@@ -189,6 +205,11 @@ Articles of interest:
 * Colin Raffel [[Web]](https://colinraffel.com/)
 
 * François Pachet [[Web]](https://www.francoispachet.fr/)
+
+* Music Informatics Group [[Web]](https://musicinformatics.gatech.edu/)
+
+* Music and Artificial Intelligence Lab [[Web]](https://musicai.citi.sinica.edu.tw/)
+
 
 ## Books and References
 
