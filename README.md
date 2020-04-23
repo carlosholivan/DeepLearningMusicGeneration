@@ -50,7 +50,7 @@ This repository collects information and explanations of Neural Network Architec
 
 ## Sources Separation
 
-* Google Colab Notebook with Demucs vs Spleeter comparison: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
+* Google Colab Notebook with Demucs vs Spleeter comparison: [![Open In Colab](]https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
 
 ### <a name="demucs-by-facebook"></a>Demucs by Facebook
 
@@ -75,7 +75,7 @@ Other references to see:
 
 * MIMILAKIS, Stylianos I.; DROSSOS, Konstantinos; SCHULLER, Gerald. Unsupervised Interpretable Representation Learning for Singing Voice Separation. arXiv preprint arXiv:2003.01567, 2020. [[Link]](https://arxiv.org/pdf/2003.01567.pdf)
 
-[[Web and Code]](https://github.com/deezer/spleeter) [[Paper]](http://archives.ismir.net/ismir2019/latebreaking/000036.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb)
+[[Web and Code]](https://github.com/deezer/spleeter) [[Paper]](http://archives.ismir.net/ismir2019/latebreaking/000036.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb)
 
 ## Deep Learning Models for Music Generation
 
