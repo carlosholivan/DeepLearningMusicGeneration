@@ -195,7 +195,7 @@ Articles of interest:
 
 * Audio Engineering Society - Conference on Semantic Audio (AES) [[Web]](http://www.aes.org/)
 
-* International Conference on Digital Audio Effects (DAFx) [[Web]]http://dafx.de/)
+* International Conference on Digital Audio Effects (DAFx) [[Web]](http://dafx.de/)
 
 
 ## Research Groups and Labs
