@@ -7,7 +7,7 @@ This repository collects information and explanations of Neural Network Architec
 - [Neural Network Architectures](#neural-network-architectures)
 - [Souces Separation](#sources-separation)
   - [Demucs by Facebook](#demucs-by-facebook)
-  - [Spleeter by Deezer](#dspleeter-by-deezer)
+  - [Spleeter by Deezer](#spleeter-by-deezer)
 - [Deep Learning Models for Music Generation](#deep-learning-models-for-music-generation)
   - [2020](#2020deep)
   - [2019](#2019deep)
