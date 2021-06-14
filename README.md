@@ -1,43 +1,78 @@
-# DEEP LEARNING FOR MUSIC GENERATION
+# <span style="color:#9EB1FF; font-size:30.0pt">DEEP LEARNING FOR MUSIC GENERATION</span>
 
-This repository collects information and explanations of Neural Network Architectures which are used in Music Generation.
+This file presents the State of the Art of Music Generation.
+
+![GitHub Repo stars](https://img.shields.io/github/stars/carlosholivan/AIMusicGeneration?style=social) [![License](https://img.shields.io/badge/license-Apache2.0-green)](./LICENSE)
 
 ## Table of Contents
 
-- [Neural Network Architectures](#neural-network-architectures)
-- [Sources Separation](#sources-separation)
-  - [Demucs by Facebook](#demucs-by-facebook)
-  - [Spleeter by Deezer](#spleeter-by-deezer)
-- [Deep Learning Models for Music Generation](#deep-learning-models-for-music-generation)
-  - [2020](#2020deep)
-  - [2019](#2019deep)
-    - [MuseNet](#musenet)
-    - [Maia Music Generator](#maia-music-generator)
-  - [2018](#2018deep)
-    - [MusicVAE (Magenta)](#musicvae-magenta)
-    - [Music Transformer (Magenta)](#music-transformer-magenta)
-  - [2017](#2017deep)
-    - [MuseGAN](#musegan)
-  - [2016](#2016deep)
-    - [DeepBach](#deepbach)
-  - [2015](#2015deep)
-    - [Composing Music with Recurrent Neural Networks](#composing-music-with-recurrent-neural-networks)
-- [Articles (per year of submission)](#articles)
-  - [2020](#2020articles)
-  - [2019](#2019articles)
-  - [2018](#2018articles)
-  - [2017](#2017articles)
-  - [2016](#2016articles)
-- [Datasets](#datasets)
-- [Journals and Conferences](#journals-and-conferences)
-- [Research Groups and Labs](#research-groups-and-labs)
-- [Books and References](#books-and-references)
-- [Other Apps for Music Generation with AI](#other-apps-for-music-generation-with-ai)
-- [Other Resources](#other-resources)
-- [Author](#author)
+1. [Algorithmic Composition](#algorithmic-composition)
+
+    - [1992](#1992alg)
+
+    - [Books](#books-alg)
 
 
-## Neural Network Architectures
+2. [Neural Network Architectures](#neural-network-architectures)
+
+3. [Deep Learning Models for Music Generation](#deep-learning-music-generation)
+
+    - [2021](#2020deep)
+    - [2020](#2020deep)
+    - [2019](#2019deep)
+    - [2018](#2018deep)
+    - [2017](#2017deep)
+    - [2016](#2016deep)
+    - [2015](#2015deep)
+    - [2002](#2002deep)
+
+    - [Books and Reviews](#books-reviews-deep)
+      - [Books](#books-deep)
+      - [Reviews](#reviews-deep)
+
+
+4. [Datasets](#datasets)
+
+5. [Journals and Conferences](#journals)
+
+6. [Authors](#authors)
+
+7. [Research Groups and Labs](#labs)
+
+8. [Apps for Music Generation with AI](#apps)
+
+9. [Other Resources](#other-resources)
+
+[Author](#author)
+
+
+## <span id="algorithmic-composition" style="color:#9EB1FF; font-size:25.0pt">2. Algorithmic Composition</span>
+
+### <span id="1992alg" style="color:#A8FF9E; font-size:20.0pt">1992</span>
+
+#### <span id="harmonet" style="color:#FF9EC3; font-size:15.0pt">HARMONET</span>
+
+```
+Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A neural net for harmonizing chorales in the style of JS Bach. In Advances in neural information processing systems (pp. 267-274).
+```
+
+[Paper](https://proceedings.neurips.cc/paper/1991/file/a7aeed74714116f3b292a982238f83d2-Paper.pdf)
+
+
+### <span id="books-alg" style="color:#A8FF9E; font-size:25.0pt">Books</span>
+
+* Westergaard, P. (1959). Experimental Music. Composition with an Electronic Computer.
+
+* Cope, D. (2000). The algorithmic composer (Vol. 16). AR Editions, Inc..
+
+* Nierhaus, G. (2009). Algorithmic composition: paradigms of automated music generation. Springer Science & Business Media.
+
+* Müller, M. (2015). Fundamentals of music processing: Audio, analysis, algorithms, applications. Springer.
+
+* McLean, A., & Dean, R. T. (Eds.). (2018). The Oxford handbook of algorithmic music. Oxford University Press.
+
+
+## <span id="neural-network-architectures" style="color:#9EB1FF; font-size:25.0pt">2. Neural Network Architectures</span>
 
 | NN Architecture | Year | Authors | Link to original paper | Slides |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -48,196 +83,397 @@ This repository collects information and explanations of Neural Network Architec
 | Transformer | 2017 | Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin | https://arxiv.org/pdf/1706.03762.pdf | |
 
 
-## Sources Separation
+## <span id="deep-learning-music-generation" style="color:#9EB1FF; font-size:25.0pt">3. Deep Learning Models for Music Generation</span>
 
-* Google Colab Notebook with Demucs vs Spleeter comparison: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/carlosholivan/AIMusicGeneration/blob/master/colab_notebooks/SourcesSeparationComparation_mp3files.ipynb)
+### <span id="2021deep" style="color:#A8FF9E; font-size:20.0pt">2021</span>
 
-### <a name="demucs-by-facebook"></a>Demucs by Facebook
 
-<img src="Images/demucs.png" width="600">
+#### <span id="melody-lyrics-models" style="color:#FF9EC3; font-size:15.0pt">Melody Generation from Lyrics</span>
 
-[[Web and Code]](https://github.com/facebookresearch/demucs) [[Paper]](https://hal.archives-ouvertes.fr/hal-02379796/document)
+```
+Yu, Y., Srivastava, A., & Canales, S. (2021). Conditional lstm-gan for melody generation from lyrics. ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 17(1), 1-20.
+```
 
-### <a name="spleeter-by-deezer"></a>Spleeter by Deezer
+<img src="https://dl.acm.org/cms/attachment/a194a709-c841-48cd-bf8a-3ecdca0af5b9/tomm1701-35-f02.jpg" width="300" height="200">
 
-<img src="Images/spleeter.jpg" width="600">
+[Paper](https://dl.acm.org/doi/abs/10.1145/3424116)
 
-Pre-trained models:
-* Vocals (singing voice) / accompaniment separation (2 stems)
-* Vocals / drums / bass / other separation (4 stems)
-* Vocals / drums / bass / piano / other separation (5 stems)
 
-Papers: 
+#### <span id="diffusion-models" style="color:#FF9EC3; font-size:15.0pt">Music Generation with Diffusion Models</span>
 
-* Andreas Jansson, Eric J. Humphrey, Nicola Montecchio, Rachel Bittner, Aparna Kumar, and Tillman Weyde. Singingvoice  separation  with  deep  u-net  convolutional  networks.  InProceedings of the International Society for MusicInformation Retrieval Conference (ISMIR), pages 323–332, 2017. [[Link]](https://openaccess.city.ac.uk/id/eprint/19289/1/)
+```
+Mittal, G., Engel, J., Hawthorne, C., & Simon, I. (2021). Symbolic music generation with diffusion models. arXiv preprint arXiv:2103.16091.
+```
 
-Other references to see: 
+<img src="https://paperswithcode.com/media/social-images/zEWjrIEUSnxozEVb.png" width="400" height="200">
 
-* MIMILAKIS, Stylianos I.; DROSSOS, Konstantinos; SCHULLER, Gerald. Unsupervised Interpretable Representation Learning for Singing Voice Separation. arXiv preprint arXiv:2003.01567, 2020. [[Link]](https://arxiv.org/pdf/2003.01567.pdf)
+[Paper](https://arxiv.org/abs/2103.16091)
 
-[[Web and Code]](https://github.com/deezer/spleeter) [[Paper]](http://archives.ismir.net/ismir2019/latebreaking/000036.pdf) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/deezer/spleeter/blob/master/spleeter.ipynb)
+### <span id="2020deep" style="color:#A8FF9E; font-size:20.0pt">2020</span>
 
-## Deep Learning Models for Music Generation
+#### <span id="controllable-polyphonic" style="color:#FF9EC3; font-size:15.0pt">Controllable Polyphonic Music Generation</span>
 
-### <a name="2020deep"></a>2020
+```
+Wang, Z., Wang, D., Zhang, Y., & Xia, G. (2020). Learning interpretable representation for controllable polyphonic music generation. arXiv preprint arXiv:2008.07122.
+```
 
-### <a name="2019deep"></a>2019
+<img src="https://d3i71xaburhd42.cloudfront.net/7e1f0c74703fdfafd3188eef3d270feaad55aa51/2-Figure1-1.png" width="200" height="200">
 
-#### MuseNet
+[Paper](https://arxiv.org/abs/2008.07122) [Web](https://program.ismir2020.net/poster_5-05.html) [Video](https://www.youtube.com/watch?v=Sb6jXP_7dtE&t=28s&ab_channel=ISMIR2020)
 
-Web page: https://openai.com/blog/musenet/
+#### <span id="mmm" style="color:#FF9EC3; font-size:15.0pt">MMM: Multitrack Music Generation</span>
 
-#### Maia Music Generator
+```
+Ens, J., & Pasquier, P. (2020). Mmm: Exploring conditional multi-track music generation with the transformer. arXiv preprint arXiv:2008.06048.
+```
 
-<img src="Images/maia.png" width="600">
+<img src="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/d6741241efb9ffd933df974b43d7109c72238371/5-Figure1-1.png" width="300" height="200">
 
-[[Web]](https://maia.music.blog/2019/05/13/maia-a-new-music-generator/)
+[Paper](https://arxiv.org/abs/2008.06048) [Web](https://jeffreyjohnens.github.io/MMM/) [Colab](https://colab.research.google.com/drive/1xGZW3GP24HUsxnbebqfy1iCyYySQ64Vs?usp=sharing) [Github (AI Guru)](https://github.com/AI-Guru/MMM-JSB)
 
+#### <span id="xl" style="color:#FF9EC3; font-size:15.0pt">Transformer-XL</span>
 
-### <a name="2018deep"></a>2018
+```
+Wu, X., Wang, C., & Lei, Q. (2020). Transformer-XL Based Music Generation with Multiple Sequences of Time-valued Notes. arXiv preprint arXiv:2007.07244.
+```
 
-#### MusicVAE (Magenta)
+<img src="https://pbs.twimg.com/media/Ec7yY8GXsAEFTCl.png" width="400" height="300">
 
-<img src="Images/musicVAE.png" width="600">
+[Paper](https://arxiv.org/abs/2007.07244)
 
-[[Web]](https://magenta.tensorflow.org/music-vae) [[Paper]](https://arxiv.org/pdf/1803.05428.pdf) [[Code]](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae) [[Google Colab]](https://colab.research.google.com/notebooks/magenta/music_vae/music_vae.ipynb)
 
+#### <span id="transformer-vae" style="color:#FF9EC3; font-size:15.0pt">Transformer VAE</span>
 
-Articles of interest: 
-* MusicVAE: Understanding of the googles work for interpolating two music sequences [[Web]](https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c)
+```
+Jiang, J., Xia, G. G., Carlton, D. B., Anderson, C. N., & Miyakawa, R. H. (2020, May). Transformer vae: A hierarchical model for structure-aware and interpretable music representation learning. In ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) (pp. 516-520). IEEE.
+```
 
+<img src="https://d3i71xaburhd42.cloudfront.net/c952e90830f4eb77d652acd4a98fef518928f501/2-Figure1-1.png" width="200" height="200">
 
-#### Music Transformer (Magenta)
+[Paper](https://ieeexplore.ieee.org/document/9054554)
 
-<img src="Images/transformer.png" width="600">
 
-[[Web]](https://magenta.tensorflow.org/music-transformer) [[Poster]](Images/transformer_poster.jpg) [[Paper]](https://arxiv.org/pdf/1809.04281.pdf)
+### <span id="2019deep" style="color:#A8FF9E; font-size:20.0pt">2019</span>
 
-Articles of interest: 
+#### <span id="tonicnet" style="color:#FF9EC3; font-size:15.0pt">TonicNet</span>
 
+```
+Peracha, O. (2019). Improving polyphonic music models with feature-rich encoding. arXiv preprint arXiv:1911.11775.
+```
 
-### <a name="2017deep"></a>2017
+<img src="https://www.researchgate.net/publication/337589944/figure/fig1/AS:830122001174528@1574927916558/Diagram-of-the-TonicNet-model-architecture_Q320.jpg" width="200" height="200">
 
-#### MuseGAN
+[Paper](https://arxiv.org/abs/1911.11775)
 
-<img src="Images/musegan.png" width="600">
 
-[[Web]](https://salu133445.github.io/musegan/) [[Paper]](https://arxiv.org/pdf/1709.06298.pdf) [[Poster]](Images/musegan_ismir2017.jpg) [[Code]](https://github.com/salu133445/musegan)
+#### <span id="lakhnes" style="color:#FF9EC3; font-size:15.0pt">LakhNES</span>
 
-### <a name="2016deep"></a>2016
+```
+Donahue, C., Mao, H. H., Li, Y. E., Cottrell, G. W., & McAuley, J. (2019). LakhNES: Improving multi-instrumental music generation with cross-domain pre-training. arXiv preprint arXiv:1907.04868.
+```
 
-#### DeepBach
+<img src="https://images.deepai.org/converted-papers/1907.04868/x1.png" width="200" height="200">
 
-<img src="Images/deepbach.jpeg" width="300">
+[Paper](https://arxiv.org/abs/1907.04868)
 
-[[Web]](http://www.flow-machines.com/history/projects/deepbach-polyphonic-music-generation-bach-chorales/) [[Paper]](https://arxiv.org/pdf/1612.01010.pdf) [[Code]](https://github.com/Ghadjeres/DeepBach)
 
+#### <span id="r-transformer" style="color:#FF9EC3; font-size:15.0pt">R-Transformer</span>
 
-### <a name="2015deep"></a>2015
+```
+Wang, Z., Ma, Y., Liu, Z., & Tang, J. (2019). R-transformer: Recurrent neural network enhanced transformer. arXiv preprint arXiv:1907.05572.
+```
 
-#### Composing Music with Recurrent Neural Networks
+<img src="https://d3i71xaburhd42.cloudfront.net/449892c8e095a97b4c9e058ae5be1e9177d805b7/2-Figure1-1.png" width="400" height="200">
 
-<img src="http://www.hexahedria.com/media/uploads/2015/08/diags-figure8.pdf.png" width="400">
+[Paper](https://arxiv.org/abs/1907.05572)
 
-[[Web]](http://www.hexahedria.com/2015/08/03/composing-music-with-recurrent-neural-networks/)
 
-## <a name="articles"></a>Articles (per year of submission)
+#### <span id="musenet" style="color:#FF9EC3; font-size:15.0pt">MuseNet - OpenAI</span>
 
-### <a name="2020articles"></a>2020
+[Web](https://openai.com/blog/musenet/)
 
-### <a name="2019articles"></a>2019
 
-* Conditional LSTM-GAN for Melody Generation from Lyrics [[Paper]](https://arxiv.org/pdf/1908.05551.pdf)
+#### <span id="maia" style="color:#FF9EC3; font-size:15.0pt">Maia Music Generator</span>
 
-### <a name="2018articles"></a>2018 
+<img src="https://maiamusicblog.files.wordpress.com/2019/05/lstm.png?w=1024" width="400" height="200">
 
-* MorpheuS: generating structured music with constrained patterns and tension [[Paper]](https://arxiv.org/pdf/1812.04832.pdf)
+[Web](https://maia.music.blog/2019/05/13/maia-a-new-music-generator/)
 
-* Music Transformer [[Paper]](https://arxiv.org/pdf/1809.04281.pdf)
 
-### <a name="2017articles"></a>2017 
+#### <span id="counterpoint-convolution" style="color:#FF9EC3; font-size:15.0pt">Coconet: Counterpoint by Convolution</span>
 
-* MuseGAN: Multi-track Sequential Generative Adversarial Networks for Symbolic Music Generation and Accompaniment [[Paper]](https://arxiv.org/pdf/1709.06298.pdf)
+```
+Huang, C. Z. A., Cooijmans, T., Roberts, A., Courville, A., & Eck, D. (2019). Counterpoint by convolution. arXiv preprint arXiv:1903.07227.
+```
 
-* Generating Polyphonic Music Using Tied Parallel Networks [[Paper]](http://www.hexahedria.com/files/2017generatingpolyphonic.pdf)
+<img src="https://d3i71xaburhd42.cloudfront.net/889c3b4394826639d483c039467cd9a05e68e73c/1-Figure1-1.png" width="150" height="200">
 
-### <a name="2016articles"></a>2016
+[Paper](https://arxiv.org/abs/1903.07227) [Web](https://coconets.github.io/)
 
-* DeepBach: a Steerable Model for Bach Chorales Generation [[Paper]](https://arxiv.org/pdf/1612.01010.pdf)
 
-* Imposing higher-level Structure in Polyphonic Music Generation using Convolutional Restricted Boltzmann Machines and Constraints [[Paper]](https://arxiv.org/pdf/1612.04742.pdf)
+### <span id="2018deep" style="color:#A8FF9E; font-size:20.0pt">2018</span>
 
+#### <span id="music-transformer" style="color:#FF9EC3; font-size:15.0pt">Music Transformer - Google Magenta</span>
 
-## Datasets
+````
+Huang, C. Z. A., Vaswani, A., Uszkoreit, J., Shazeer, N., Simon, I., Hawthorne, et al. (2018). Music transformer. arXiv preprint arXiv:1809.04281.
+````
 
-* The Lakh MIDI Dataset v0.1 [[Web]](https://colinraffel.com/projects/lmd/) [[Tutorial IPython]](https://nbviewer.jupyter.org/github/craffel/midi-dataset/blob/master/Tutorial.ipynb)
+<img src="https://magenta.tensorflow.org/assets/music_transformer/motifs_shaded_boxes.png" width="400" height="100">
 
+[Web](https://magenta.tensorflow.org/music-transformer) [Poster](Images/transformer_poster.jpg) [Paper](https://arxiv.org/pdf/1809.04281.pdf)
 
-## Journals and Conferences
 
-* International Society for Music Information Retrieval (ISMIR) [[Web]](https://www.ismir.net/)
+#### <span id="imposing-structure" style="color:#FF9EC3; font-size:15.0pt">Imposing Higher-level Structure in Polyphonic Music</span>
 
-* IEEE Signal Processing (ICASSP) [[Web]](https://signalprocessingsociety.org/publications-resources)
+```
+Lattner, S., Grachten, M., & Widmer, G. (2018). Imposing higher-level structure in polyphonic music generation using convolutional restricted boltzmann machines and constraints. Journal of Creative Music Systems, 2, 1-31.
+```
 
-* ELSEVIER Signal Processing Journal [[Web]](https://www.journals.elsevier.com/signal-processing)
+<img src="https://images.deepai.org/converted-papers/1612.04742/fig/constrained_sampling.png" width="400" height="200">
 
-* Association for the Advancement of Artificial Intelligence (AAAI) [[Web]](https://www.aaai.org/)
 
-* Journal of Artificial Intelligence Research (JAIR) [[Web]](https://www.jair.org/index.php/jair)
+[Paper](https://arxiv.org/pdf/1612.04742.pdf)
 
-* International Joint Conferences on Artificial Intelligence (IJCAI) [[Web]](https://www.ijcai.org/)
+#### <span id="music-vae" style="color:#FF9EC3; font-size:15.0pt">MusicVAE - Google Magenta</span>
 
-* International Conference on Learning Representations (ICLR) [[Web]](https://iclr.cc)
+```
+Roberts, A., Engel, J., Raffel, C., Hawthorne, C., & Eck, D. (2018, July). A hierarchical latent vector model for learning long-term structure in music. In International Conference on Machine Learning (pp. 4364-4373). PMLR.
+```
 
-* IET Signal Processing Journal [[Web]](https://digital-library.theiet.org/content/journals/iet-spr)
+<img src="https://magenta.tensorflow.org/assets/music_vae/architecture.png" width="400" height="200">
 
-* Journal of New Music Research (JNMR) [[Web]](https://www.tandfonline.com/loi/nnmr20)
+[Web](https://magenta.tensorflow.org/music-vae) [Paper](https://arxiv.org/pdf/1803.05428.pdf) [Code](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae) [Google Colab](https://colab.research.google.com/notebooks/magenta/music_vae/music_vae.ipynb) [Explanation](https://medium.com/@musicvaeubcse/musicvae-understanding-of-the-googles-work-for-interpolating-two-music-sequences-621dcbfa307c)
 
-* Audio Engineering Society - Conference on Semantic Audio (AES) [[Web]](http://www.aes.org/)
 
-* International Conference on Digital Audio Effects (DAFx) [[Web]](http://dafx.de/)
+### <span id="2017deep" style="color:#A8FF9E; font-size:20.0pt">2017</span>
 
+#### <span id="morpheus" style="color:#FF9EC3; font-size:15.0pt">MorpheuS</span>
 
-## Research Groups and Labs
+```
+Herremans, D., & Chew, E. (2017). MorpheuS: generating structured music with constrained patterns and tension. IEEE Transactions on Affective Computing, 10(4), 510-523.
+```
 
-* Audiolabs Erlangen [[Web]](https://www.audiolabs-erlangen.de/)
+<img src="https://d3i71xaburhd42.cloudfront.net/ed578a1a00ce5ecdef692223a5d422218f8ec347/2-Figure1-1.png" width="200" height="200">
 
-* Colin Raffel [[Web]](https://colinraffel.com/)
+[Paper](https://arxiv.org/pdf/1812.04832.pdf)
 
-* François Pachet [[Web]](https://www.francoispachet.fr/)
+#### <span id="music-gan" style="color:#FF9EC3; font-size:15.0pt">Polyphonic GAN</span>
 
-* Music Informatics Group [[Web]](https://musicinformatics.gatech.edu/)
+```
+Lee, S. G., Hwang, U., Min, S., & Yoon, S. (2017). Polyphonic music generation with sequence generative adversarial networks. arXiv preprint arXiv:1710.11418.
+```
 
-* Music and Artificial Intelligence Lab [[Web]](https://musicai.citi.sinica.edu.tw/)
+<img src="https://d3i71xaburhd42.cloudfront.net/52d5e2bca8af3fb2c37c90587a06ab942b7aca91/3-Figure1-1.png" width="350" height="150">
 
+<img src="https://d3i71xaburhd42.cloudfront.net/52d5e2bca8af3fb2c37c90587a06ab942b7aca91/4-Figure2-1.png" width="350" height="100">
 
-## Books and References
+[Paper](https://arxiv.org/abs/1710.11418)
 
-* MÜLLER, Meinard. Fundamentals of music processing: Audio, analysis, algorithms, applications. Springer, 2015.
 
+#### <span id="bach-chorales-lstm" style="color:#FF9EC3; font-size:15.0pt">BachBot - Microsoft</span>
 
-## Other Apps for Music Generation with AI
+```
+Liang, F. T., Gotham, M., Johnson, M., & Shotton, J. (2017, October). Automatic Stylistic Composition of Bach Chorales with Deep LSTM. In ISMIR (pp. 449-456).
+```
 
-* AIVA (paid) [[Web]](https://www.aiva.ai/)
+<img src="https://d3i71xaburhd42.cloudfront.net/9ef8d50be5457b3e943447f332c3a3be201f7ec8/3-Figure1-1.png" width="350" height="100">
 
-* Amper Music (paid) [[Web]](https://www.ampermusic.com/)
+<img src="https://d3i71xaburhd42.cloudfront.net/9ef8d50be5457b3e943447f332c3a3be201f7ec8/5-Figure4-1.png" width="350" height="100">
 
-* Ecrett Music (paid) [[Web]](https://ecrettmusic.com/)
+[Paper](https://www.microsoft.com/en-us/research/publication/automatic-stylistic-composition-of-bach-chorales-with-deep-lstm/) [Liang Master Thesis 2016](https://www.mlmi.eng.cam.ac.uk/files/feynman_liang_8224771_assignsubmission_file_liangfeynmanthesis.pdf)
 
-* Humtap (free, iOS) [[Web]](https://www.humtap.com/)
 
-* Amadeus Code (free/paid, iOS) [[Web]](https://amadeuscode.com/top)
+#### <span id="musegan" style="color:#FF9EC3; font-size:15.0pt">MuseGAN</span>
 
-* Computoser (free) [[Web]](computoser.com)
+```
+Dong, H. W., Hsiao, W. Y., Yang, L. C., & Yang, Y. H. (2018, April). Musegan: Multi-track sequential generative adversarial networks for symbolic music generation and accompaniment. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 32, No. 1).
+```
 
-* Brain.fm (paid) [[Web]](https://www.brain.fm/login?next=/app/player)
+<img src="https://salu133445.github.io/musegan/figs/musegan-generator.png" width="400" height="150">
 
+[Web](https://salu133445.github.io/musegan/) [Paper](https://arxiv.org/pdf/1709.06298.pdf) [Poster](Images/musegan_ismir2017.jpg) [GitHub](https://github.com/salu133445/musegan)
 
-## Other Resources
 
-* Bustena (web in spanish to learn harmony theory) [[Web]](http://www.bustena.com/curso-de-armonia-i/)
+#### <span id="lstm-composing" style="color:#FF9EC3; font-size:15.0pt">Composing Music with LSTM</span>
+
+```
+Johnson, D. D. (2017, April). Generating polyphonic music using tied parallel networks. In International conference on evolutionary and biologically inspired music and art (pp. 128-143). Springer, Cham.
+```
+
+<img src="https://www.danieldjohnson.com/media/uploads/2015/08/diags-figure8.pdf.png" width="250" height="150">
+
+[Paper](https://link.springer.com/chapter/10.1007/978-3-319-55750-2_9) [Web](https://www.danieldjohnson.com/2015/08/03/composing-music-with-recurrent-neural-networks/) [GitHub](https://github.com/danieldjohnson/biaxial-rnn-music-composition) [Blog](https://www.danieldjohnson.com/2015/08/03/composing-music-with-recurrent-neural-networks/)
+
+
+#### <span id="organ" style="color:#FF9EC3; font-size:15.0pt">ORGAN</span>
+
+```
+Guimaraes, G. L., Sanchez-Lengeling, B., Outeiral, C., Farias, P. L. C., & Aspuru-Guzik, A. (2017). Objective-reinforced generative adversarial networks (ORGAN) for sequence generation models. arXiv preprint arXiv:1705.10843.
+```
+
+<img src="https://d3i71xaburhd42.cloudfront.net/15d739e2c184a6844bdbd9a2550d007de6ddb085/2-Figure1-1.png" width="400" height="100">
+
+[Paper](https://arxiv.org/abs/1705.10843)
+
+
+#### <span id="midinet" style="color:#FF9EC3; font-size:15.0pt">MidiNet</span>
+
+```
+Yang, L. C., Chou, S. Y., & Yang, Y. H. (2017). MidiNet: A convolutional generative adversarial network for symbolic-domain music generation. arXiv preprint arXiv:1703.10847.
+```
+
+<img src="https://d3i71xaburhd42.cloudfront.net/1fa6ba95b8383fad600bcbd6033c6eec73296381/3-Figure1-1.png" width="400" height="150">
+
+[Paper](https://arxiv.org/abs/1703.10847)
+
+
+### <span id="2016deep" style="color:#A8FF9E; font-size:20.0pt">2016</span>
+
+#### <span id="deepbach" style="color:#FF9EC3; font-size:15.0pt">DeepBach</span>
+
+```
+Hadjeres, G., Pachet, F., & Nielsen, F. (2017, July). Deepbach: a steerable model for bach chorales generation. In International Conference on Machine Learning (pp. 1362-1371). PMLR.
+```
+
+<img src="https://www.researchgate.net/profile/Francois-Pachet/publication/319524552/figure/fig37/AS:535791143473160@1504753971971/DeepBach-architecture.png" width="200" height="250">
+
+[Web](http://www.flow-machines.com/history/projects/deepbach-polyphonic-music-generation-bach-chorales/) [Paper](https://arxiv.org/pdf/1612.01010.pdf) [Code](https://github.com/Ghadjeres/DeepBach)
+
+
+#### <span id="fine-tuning-rl" style="color:#FF9EC3; font-size:15.0pt">Fine-Tuning with RL</span>
+
+```
+Jaques, N., Gu, S., Turner, R. E., & Eck, D. (2016). Generating music by fine-tuning recurrent neural networks with reinforcement learning.
+```
+
+<img src="https://d3i71xaburhd42.cloudfront.net/b26cb2d152690c49c8c81a52beefa789ea543aa7/3-Figure1-1.png" width="400" height="200">
+
+[Paper](https://research.google/pubs/pub45871/)
+
+
+#### <span id="c-rnn-gan" style="color:#FF9EC3; font-size:15.0pt">C-RNN-GAN</span>
+
+```
+Mogren, O. (2016). C-RNN-GAN: Continuous recurrent neural networks with adversarial training. arXiv preprint arXiv:1611.09904.
+```
+
+<img src="https://media.arxiv-vanity.com/render-output/5108727/x1.png" width="300" height="200">
+
+[Paper](https://arxiv.org/abs/1611.09904)
+
+
+#### <span id="seqgan" style="color:#FF9EC3; font-size:15.0pt">SeqGAN</span>
+
+```
+Yu, L., Zhang, W., Wang, J., & Yu, Y. (2017, February). Seqgan: Sequence generative adversarial nets with policy gradient. In Proceedings of the AAAI conference on artificial intelligence (Vol. 31, No. 1).
+```
+
+<img src="https://raw.githubusercontent.com/LantaoYu/SeqGAN/master/figures/seqgan.png" width="400" height="150">
+
+[Paper](https://arxiv.org/abs/1609.05473)
+
+
+### <span id="2002deep" style="color:#A8FF9E; font-size:20.0pt">2002</span>
+
+#### <span id="seqgan" style="color:#FF9EC3; font-size:15.0pt">Temporal Structure in Music</span>
+
+```
+Eck, D., & Schmidhuber, J. (2002, September). Finding temporal structure in music: Blues improvisation with LSTM recurrent networks. In Proceedings of the 12th IEEE workshop on neural networks for signal processing (pp. 747-756). IEEE.
+```
+
+[Paper](https://ieeexplore.ieee.org/document/1030094)
+
+
+### <span id="books-reviews-deep" style="color:#A8FF9E; font-size:25.0pt">Books and Reviews</span>
+
+### <span id="books-deep" style="color:#3C8CE8; font-size:20.0pt">Books</span>
+
+* Briot, J. P., Hadjeres, G., & Pachet, F. (2020). Deep learning techniques for music generation (pp. 1-249). Springer.
+
+### <span id="reviews-deep" style="color:#3C8CE8; font-size:20.0pt">Reviews</span>
+
+* Ji, S., Luo, J., & Yang, X. (2020). A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions. arXiv preprint arXiv:2011.06801.
+[Paper](https://arxiv.org/abs/2011.06801)
+
+* Briot, J. P., Hadjeres, G., & Pachet, F. D. (2017). Deep learning techniques for music generation--a survey. arXiv preprint arXiv:1709.01620.
+[Paper](https://arxiv.org/abs/1709.01620)
+
+
+## <span id="datasets" style="color:#9EB1FF; font-size:25.0pt">4. Datasets</span>
+
+* The Lakh MIDI Dataset v0.1 [Web](https://colinraffel.com/projects/lmd/) [Tutorial IPython](https://nbviewer.jupyter.org/github/craffel/midi-dataset/blob/master/Tutorial.ipynb)
+
+
+## <span id="journals" style="color:#9EB1FF; font-size:25.0pt">5. Journals and Conferences</span>
+
+* International Society for Music Information Retrieval (ISMIR) [Web](https://www.ismir.net/)
+
+* IEEE Signal Processing (ICASSP) [Web](https://signalprocessingsociety.org/publications-resources)
+
+* ELSEVIER Signal Processing Journal [Web](https://www.journals.elsevier.com/signal-processing)
+
+* Association for the Advancement of Artificial Intelligence (AAAI) [Web](https://www.aaai.org/)
+
+* Journal of Artificial Intelligence Research (JAIR) [Web](https://www.jair.org/index.php/jair)
+
+* International Joint Conferences on Artificial Intelligence (IJCAI) [Web](https://www.ijcai.org/)
+
+* International Conference on Learning Representations (ICLR) [Web](https://iclr.cc)
+
+* IET Signal Processing Journal [Web](https://digital-library.theiet.org/content/journals/iet-spr)
+
+* Journal of New Music Research (JNMR) [Web](https://www.tandfonline.com/loi/nnmr20)
+
+* Audio Engineering Society - Conference on Semantic Audio (AES) [Web](http://www.aes.org/)
+
+* International Conference on Digital Audio Effects (DAFx) [Web](http://dafx.de/)
+
+
+## <span id="authors" style="color:#9EB1FF; font-size:25.0pt">6. Authors</span>
+
+* David Cope [Web](http://artsites.ucsc.edu/faculty/cope/)
+
+* Colin Raffel [Web](https://colinraffel.com/)
+
+* Jesse Engel [Web](https://jesseengel.github.io/)
+
+* Douglas Eck [Web](http://www.iro.umontreal.ca/~eckdoug/)
+
+* François Pachet [Web](https://www.francoispachet.fr/)
+
+
+## <span id="labs" style="color:#9EB1FF; font-size:25.0pt">7. Research Groups and Labs</span>
+
+* Audiolabs Erlangen [Web](https://www.audiolabs-erlangen.de/)
+
+* Music Informatics Group [Web](https://musicinformatics.gatech.edu/)
+
+* Music and Artificial Intelligence Lab [Web](https://musicai.citi.sinica.edu.tw/)
+
+
+## <span id="apps" style="color:#9EB1FF; font-size:25.0pt">8. Apps for Music Generation with AI</span>
+
+* AIVA (paid) [Web](https://www.aiva.ai/)
+
+* Amper Music (paid) [Web](https://www.ampermusic.com/)
+
+* Ecrett Music (paid) [Web](https://ecrettmusic.com/)
+
+* Humtap (free, iOS) [Web](https://www.humtap.com/)
+
+* Amadeus Code (free/paid, iOS) [Web](https://amadeuscode.com/top)
+
+* Computoser (free) [Web](computoser.com)
+
+* Brain.fm (paid) [Web](https://www.brain.fm/login?next=/app/player)
+
+
+## <span id="other-resources" style="color:#9EB1FF; font-size:25.0pt">9. Other Resources</span>
+
+* Bustena (web in spanish to learn harmony theory) [Web](http://www.bustena.com/curso-de-armonia-i/)
 
 
 ## Author
 
-**Carlos Hernández**: carloshero@unizar.es
+[**Carlos Hernández-Oliván**](https://carlosholivan.github.io/index.html): carloshero@unizar.es
