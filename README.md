@@ -4,6 +4,8 @@ This file presents the State of the Art of Music Generation.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/carlosholivan/AIMusicGeneration?style=social) [![License](https://img.shields.io/badge/license-Apache2.0-green)](./LICENSE)
 
+[ README.pdf](AIMusicGeneration.pdf)
+
 ## Table of Contents
 
 1. [Algorithmic Composition](#algorithmic-composition)
