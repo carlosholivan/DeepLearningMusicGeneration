@@ -1,10 +1,14 @@
 # <span style="color:#9EB1FF; font-size:30.0pt">DEEP LEARNING FOR MUSIC GENERATION</span>
 
-This file presents the State of the Art of Music Generation.
+This file presents the State of the Art of Music Generation. Most of these references are used in the paper ["Music Composition with Deep Learning: A Review"](#https://arxiv.org/abs/2108.12290).
 
-![GitHub Repo stars](https://img.shields.io/github/stars/carlosholivan/AIMusicGeneration?style=social) [![License](https://img.shields.io/badge/license-Apache2.0-green)](./LICENSE)
+The [authors](#Author) of the paper want to thank Jürgen Schmidhuber for his suggestions.
 
-[ README.pdf](AIMusicGeneration.pdf)
+[![License](https://img.shields.io/badge/license-Apache2.0-green)](./LICENSE)
+
+Make a pull request if you want to contribute to this references list.
+
+You can download a PDF version of this repo here: [README.pdf](AIMusicGeneration.pdf)
 
 All the images belong to their corresponding authors.
 
@@ -29,6 +33,7 @@ All the images belong to their corresponding authors.
     - [2016](#2016deep)
     - [2015](#2015deep)
     - [2002](#2002deep)
+    - [1990s](#1990deep)
 
     - [Books and Reviews](#books-reviews-deep)
       - [Books](#books-deep)
@@ -63,6 +68,8 @@ Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A neural net for harmonizi
 ### <span id="books-alg" style="color:#A8FF9E; font-size:25.0pt">Books</span>
 
 * Westergaard, P. (1959). Experimental Music. Composition with an Electronic Computer.
+
+* Todd, P. M. (1989). A connectionist approach to algorithmic composition. Computer Music Journal, 13(4), 27-43.
 
 * Cope, D. (2000). The algorithmic composer (Vol. 16). AR Editions, Inc..
 
@@ -336,6 +343,12 @@ Eck, D., & Schmidhuber, J. (2002, September). Finding temporal structure in musi
 [Paper](https://ieeexplore.ieee.org/document/1030094)
 
 
+### <span id="1990deep" style="color:#A8FF9E; font-size:20.0pt">1980s - 1990s</span>
+
+Mozer, M. C. (1994). Neural network music composition by prediction: Exploring the benefits of psychoacoustic constraints and multi-scale processing. Connection Science, 6(2-3), 247-280.
+
+[Paper](https://www.tandfonline.com/doi/abs/10.1080/09540099408915726)
+
 ### <span id="books-reviews-deep" style="color:#A8FF9E; font-size:25.0pt">Books and Reviews</span>
 
 ### <span id="books-deep" style="color:#3C8CE8; font-size:20.0pt">Books</span>
@@ -428,3 +441,5 @@ Eck, D., & Schmidhuber, J. (2002, September). Finding temporal structure in musi
 ## Author
 
 [**Carlos Hernández-Oliván**](https://carlosholivan.github.io/index.html): carloshero@unizar.es
+
+José Ramón Beltrán Blázquez
