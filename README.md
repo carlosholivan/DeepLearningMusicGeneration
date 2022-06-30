@@ -1,8 +1,7 @@
 # <span style="color:#9EB1FF; font-size:30.0pt">DEEP LEARNING FOR MUSIC GENERATION</span>
 
-This file presents the State of the Art of Music Generation. Most of these references are used in the paper ["Music Composition with Deep Learning: A Review"](#https://arxiv.org/abs/2108.12290).
 
-The [authors](#Author) of the paper want to thank Jürgen Schmidhuber for his suggestions.
+This repository is maintained by [**Carlos Hernández-Oliván**](https://carlosholivan.github.io/index.html)(carloshero@unizar.es) and it presents the State of the Art of Music Generation. Most of these references (previous to 2022) are included in the review paper ["Music Composition with Deep Learning: A Review"](#https://arxiv.org/abs/2108.12290). The authors of the paper want to thank Jürgen Schmidhuber for his suggestions.
 
 [![License](https://img.shields.io/badge/license-Apache2.0-green)](./LICENSE)
 
@@ -23,9 +22,10 @@ All the images belong to their corresponding authors.
 
 2. [Neural Network Architectures](#neural-network-architectures)
 
-3. [Deep Learning Models for Music Generation](#deep-learning-music-generation)
+3. [Deep Learning Models for Symbolic Music Generation](#deep-learning-music-generation)
 
-    - [2021](#2020deep)
+    - [2022](#2022deep)
+    - [2021](#2021deep)
     - [2020](#2020deep)
     - [2019](#2019deep)
     - [2018](#2018deep)
@@ -39,20 +39,23 @@ All the images belong to their corresponding authors.
       - [Books](#books-deep)
       - [Reviews](#reviews-deep)
 
+4. [Deep Learning Models for Audio Music Generation](#deep-learning-music-generation)
 
-4. [Datasets](#datasets)
+    - [2020](#2020audiodeep)
+    - [2017](#2017audiodeep)
 
-5. [Journals and Conferences](#journals)
+5. [Datasets](#datasets)
 
-6. [Authors](#authors)
+6. [Journals and Conferences](#journals)
 
-7. [Research Groups and Labs](#labs)
+7. [Authors](#authors)
 
-8. [Apps for Music Generation with AI](#apps)
+8. [Research Groups and Labs](#labs)
 
-9. [Other Resources](#other-resources)
+10. [Apps for Music Generation with AI](#apps)
 
-[Author](#author)
+11. [Other Resources](#other-resources)
+
 
 
 ## <span id="algorithmic-composition" style="color:#9EB1FF; font-size:25.0pt">2. Algorithmic Composition</span>
@@ -89,9 +92,42 @@ Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A neural net for harmonizi
 | Variational Auto Encoder (VAE) | 2013 | Diederik P. Kingma, Max Welling | https://arxiv.org/pdf/1312.6114.pdf |
 | Generative Adversarial Networks (GAN) | 2014 | Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio | https://arxiv.org/pdf/1406.2661.pdf |  | 
 | Transformer | 2017 | Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin | https://arxiv.org/pdf/1706.03762.pdf | |
+| Diffusion Models | 2015 | Jascha Sohl-Dickstein, Eric A. Weiss, Niru Maheswaranathan, Surya Ganguli | https://arxiv.org/abs/1503.03585 | |
 
 
 ## <span id="deep-learning-music-generation" style="color:#9EB1FF; font-size:25.0pt">3. Deep Learning Models for Music Generation</span>
+
+
+### <span id="2022deep" style="color:#A8FF9E; font-size:20.0pt">2022</span>
+
+
+#### <span id="sympony-generation" style="color:#FF9EC3; font-size:15.0pt">Symphony Generation with Permutation Invariant Language Model</span>
+
+Liu, J., Dong, Y., Cheng, Z., Zhang, X., Li, X., Yu, F., & Sun, M. (2022). Symphony Generation with Permutation Invariant Language Model. arXiv preprint arXiv:2205.05448.
+
+<img src="images/Symphony Generation.png" width="300" height="120">
+
+[Paper](http://128.84.4.34/abs/2205.05448) [Code](https://github.com/symphonynet/SymphonyNet) [Samples](https://symphonynet.github.io/)
+
+
+#### <span id="figaro" style="color:#FF9EC3; font-size:15.0pt">FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control</span>
+
+von Rütte, D., Biggio, L., Kilcher, Y., & Hoffman, T. (2022). FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control. arXiv preprint arXiv:2201.10936.
+
+<img src="images/Figaro.png" width="100" height="150">
+
+[Paper](https://arxiv.org/abs/2201.10936)
+
+
+#### <span id="theme-transformer" style="color:#FF9EC3; font-size:15.0pt">Theme Transfomer</span>
+
+Shih, Y. J., Wu, S. L., Zalkow, F., Muller, M., & Yang, Y. H. (2022). Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer. IEEE Transactions on Multimedia.
+
+<img src="images/Theme Transformer.png" width="300" height="100">
+
+[Paper](https://arxiv.org/abs/2111.04093) [GitHub](https://github.com/atosystem/ThemeTransformer)
+
+
 
 ### <span id="2021deep" style="color:#A8FF9E; font-size:20.0pt">2021</span>
 
@@ -176,11 +212,6 @@ Wang, Z., Ma, Y., Liu, Z., & Tang, J. (2019). R-transformer: Recurrent neural ne
 <img src="images/R-Transformer.png" width="400" height="200">
 
 [Paper](https://arxiv.org/abs/1907.05572)
-
-
-#### <span id="musenet" style="color:#FF9EC3; font-size:15.0pt">MuseNet - OpenAI</span>
-
-[Web](https://openai.com/blog/musenet/)
 
 
 #### <span id="maia" style="color:#FF9EC3; font-size:15.0pt">Maia Music Generator</span>
@@ -357,6 +388,9 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 
 ### <span id="reviews-deep" style="color:#3C8CE8; font-size:20.0pt">Reviews</span>
 
+* Hernandez-Olivan, C., & Beltran, J. R. (2021). Music composition with deep learning: A review. arXiv preprint arXiv:2108.12290.
+[Paper](https://arxiv.org/abs/2108.12290)
+
 * Ji, S., Luo, J., & Yang, X. (2020). A Comprehensive Survey on Deep Music Generation: Multi-level Representations, Algorithms, Evaluations, and Future Directions. arXiv preprint arXiv:2011.06801.
 [Paper](https://arxiv.org/abs/2011.06801)
 
@@ -364,12 +398,34 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 [Paper](https://arxiv.org/abs/1709.01620)
 
 
-## <span id="datasets" style="color:#9EB1FF; font-size:25.0pt">4. Datasets</span>
+## <span id="audio" style="color:#9EB1FF; font-size:25.0pt">4. Audio Music Generation</span>
+
+### <span id="2020audiodeep" style="color:#A8FF9E; font-size:20.0pt">2020</span>
+
+#### <span id="musenet" style="color:#FF9EC3; font-size:15.0pt">Jukebox - OpenAI</span>
+
+<img src="images/Jukebox.png" width="400" height="150">
+
+[Web](https://openai.com/blog/jukebox/) [Paper](https://arxiv.org/abs/2005.00341) [GitHub](https://github.com/openai/jukebox/)
+
+### <span id="2017audiodeep" style="color:#A8FF9E; font-size:20.0pt">2017</span>
+
+#### <span id="musenet" style="color:#FF9EC3; font-size:15.0pt">MuseNet - OpenAI</span>
+
+[Web](https://openai.com/blog/musenet/)
+
+## <span id="datasets" style="color:#9EB1FF; font-size:25.0pt">5. Datasets</span>
+
+* JSB Chorales Dataset [Web](http://www-ens.iro.umontreal.ca/~boulanni/icml2012)
+
+* Maestro Dataset [Web](https://magenta.tensorflow.org/datasets/maestro)
 
 * The Lakh MIDI Dataset v0.1 [Web](https://colinraffel.com/projects/lmd/) [Tutorial IPython](https://nbviewer.jupyter.org/github/craffel/midi-dataset/blob/master/Tutorial.ipynb)
 
+* MetaMIDI Dataset [Web](https://metacreation.net/metamidi-dataset/) [Zenodo](https://zenodo.org/record/5142664)
 
-## <span id="journals" style="color:#9EB1FF; font-size:25.0pt">5. Journals and Conferences</span>
+
+## <span id="journals" style="color:#9EB1FF; font-size:25.0pt">6. Journals and Conferences</span>
 
 * International Society for Music Information Retrieval (ISMIR) [Web](https://www.ismir.net/)
 
@@ -394,7 +450,7 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 * International Conference on Digital Audio Effects (DAFx) [Web](http://dafx.de/)
 
 
-## <span id="authors" style="color:#9EB1FF; font-size:25.0pt">6. Authors</span>
+## <span id="authors" style="color:#9EB1FF; font-size:25.0pt">7. Authors</span>
 
 * David Cope [Web](http://artsites.ucsc.edu/faculty/cope/)
 
@@ -404,10 +460,18 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 
 * Douglas Eck [Web](http://www.iro.umontreal.ca/~eckdoug/)
 
+* Anna Huang [Web](https://mila.quebec/en/person/anna-huang/)
+
 * François Pachet [Web](https://www.francoispachet.fr/)
 
+* Jeff Ens [Web](https://jeffens.com/)
 
-## <span id="labs" style="color:#9EB1FF; font-size:25.0pt">7. Research Groups and Labs</span>
+* Philippe Pasquier [Web](https://www.sfu.ca/siat/people/research-faculty/philippe-pasquier.html)
+
+
+## <span id="labs" style="color:#9EB1FF; font-size:25.0pt">8. Research Groups and Labs</span>
+
+* Google Magenta [Web](https://magenta.tensorflow.org/)
 
 * Audiolabs Erlangen [Web](https://www.audiolabs-erlangen.de/)
 
@@ -415,8 +479,10 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 
 * Music and Artificial Intelligence Lab [Web](https://musicai.citi.sinica.edu.tw/)
 
+* Metacreation Lab [Web](https://metacreation.net/)
 
-## <span id="apps" style="color:#9EB1FF; font-size:25.0pt">8. Apps for Music Generation with AI</span>
+
+## <span id="apps" style="color:#9EB1FF; font-size:25.0pt">9. Apps for Music Generation with AI</span>
 
 * AIVA (paid) [Web](https://www.aiva.ai/)
 
@@ -433,13 +499,8 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 * Brain.fm (paid) [Web](https://www.brain.fm/login?next=/app/player)
 
 
-## <span id="other-resources" style="color:#9EB1FF; font-size:25.0pt">9. Other Resources</span>
+## <span id="other-resources" style="color:#9EB1FF; font-size:25.0pt">10. Other Resources</span>
 
 * Bustena (web in spanish to learn harmony theory) [Web](http://www.bustena.com/curso-de-armonia-i/)
 
 
-## Author
-
-[**Carlos Hernández-Oliván**](https://carlosholivan.github.io/index.html): carloshero@unizar.es
-
-José Ramón Beltrán Blázquez
