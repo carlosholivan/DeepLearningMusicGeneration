@@ -39,8 +39,10 @@ All the images belong to their corresponding authors.
       - [Books](#books-deep)
       - [Reviews](#reviews-deep)
 
-4. [Deep Learning Models for Audio Music Generation](#deep-learning-music-generation)
+4. [Deep Learning Models for Audio Music Generation](#deep-learning-audio-generation)
 
+    - [2022](#2022audiodeep)
+    - [2021](#2021audiodeep)
     - [2020](#2020audiodeep)
     - [2017](#2017audiodeep)
 
@@ -100,6 +102,11 @@ Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A neural net for harmonizi
 
 ### <span id="2022deep" style="color:#A8FF9E; font-size:20.0pt">2022</span>
 
+#### <span id="bar-transformer" style="color:#FF9EC3; font-size:15.0pt">Bar Transformer</span>
+
+Qin, Y., Xie, H., Ding, S., Tan, B., Li, Y., Zhao, B., & Ye, M. (2022). Bar transformer: a hierarchical model for learning long-term structure and generating impressive pop music. Applied Intelligence, 1-19.
+
+[Paper](https://link.springer.com/article/10.1007/s10489-022-04049-3)
 
 #### <span id="sympony-generation" style="color:#FF9EC3; font-size:15.0pt">Symphony Generation with Permutation Invariant Language Model</span>
 
@@ -398,7 +405,24 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 [Paper](https://arxiv.org/abs/1709.01620)
 
 
-## <span id="audio" style="color:#9EB1FF; font-size:25.0pt">4. Audio Music Generation</span>
+## <span id="deep-learning-audio-generation" style="color:#9EB1FF; font-size:25.0pt">4. Audio Generation</span>
+
+### <span id="2022audiodeep" style="color:#A8FF9E; font-size:20.0pt">2022</span>
+
+#### <span id="musika" style="color:#FF9EC3; font-size:15.0pt">Musika</span>
+
+Pasini, M., & Schlüter, J. (2022). Musika! Fast Infinite Waveform Music Generation. arXiv preprint arXiv:2208.08706.
+
+[Paper](https://arxiv.org/abs/2208.08706)
+
+### <span id="2021audiodeep" style="color:#A8FF9E; font-size:20.0pt">2021</span>
+
+#### <span id="rave" style="color:#FF9EC3; font-size:15.0pt">RAVE</span>
+
+Caillon, A., & Esling, P. (2021). RAVE: A variational autoencoder for fast and high-quality neural audio synthesis. arXiv preprint arXiv:2111.05011.
+
+[Paper](https://arxiv.org/abs/2111.05011) [GitHub](https://github.com/acids-ircam/RAVE)
+
 
 ### <span id="2020audiodeep" style="color:#A8FF9E; font-size:20.0pt">2020</span>
 
