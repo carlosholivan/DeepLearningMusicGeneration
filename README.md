@@ -24,6 +24,7 @@ All the images belong to their corresponding authors.
 
 3. [Deep Learning Models for Symbolic Music Generation](#deep-learning-music-generation)
 
+    - [2023](#2023deep)
     - [2022](#2022deep)
     - [2021](#2021deep)
     - [2020](#2020deep)
@@ -41,6 +42,7 @@ All the images belong to their corresponding authors.
 
 4. [Deep Learning Models for Audio Music Generation](#deep-learning-audio-generation)
 
+    - [2023](#2023audiodeep)
     - [2022](#2022audiodeep)
     - [2021](#2021audiodeep)
     - [2020](#2020audiodeep)
@@ -99,6 +101,21 @@ Hild, H., Feulner, J., & Menzel, W. (1992). HARMONET: A neural net for harmonizi
 
 ## <span id="deep-learning-music-generation" style="color:#9EB1FF; font-size:25.0pt">3. Deep Learning Models for Music Generation</span>
 
+### <span id="2023deep" style="color:#A8FF9E; font-size:20.0pt">2023</span>
+
+#### <span id="rl-chord" style="color:#FF9EC3; font-size:15.0pt">RL-Chord</span>
+
+Ji, S., Yang, X., Luo, J., & Li, J. (2023). RL-Chord: CLSTM-Based Melody Harmonization Using Deep Reinforcement Learning. IEEE Transactions on Neural Networks and Learning Systems.
+
+[Paper](https://ieeexplore.ieee.org/abstract/document/10063204)
+
+#### <span id="figaro" style="color:#FF9EC3; font-size:15.0pt">FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control</span>
+
+von Rütte, D., Biggio, L., Kilcher, Y., & Hoffman, T. (2022). FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control. Accepted ICLR 2023.
+
+<img src="images/Figaro.png" width="100" height="150">
+
+[Paper](https://arxiv.org/abs/2201.10936)
 
 ### <span id="2022deep" style="color:#A8FF9E; font-size:20.0pt">2022</span>
 
@@ -117,15 +134,6 @@ Liu, J., Dong, Y., Cheng, Z., Zhang, X., Li, X., Yu, F., & Sun, M. (2022). Symph
 [Paper](http://128.84.4.34/abs/2205.05448) [Code](https://github.com/symphonynet/SymphonyNet) [Samples](https://symphonynet.github.io/)
 
 
-#### <span id="figaro" style="color:#FF9EC3; font-size:15.0pt">FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control</span>
-
-von Rütte, D., Biggio, L., Kilcher, Y., & Hoffman, T. (2022). FIGARO: Generating Symbolic Music with Fine-Grained Artistic Control. arXiv preprint arXiv:2201.10936.
-
-<img src="images/Figaro.png" width="100" height="150">
-
-[Paper](https://arxiv.org/abs/2201.10936)
-
-
 #### <span id="theme-transformer" style="color:#FF9EC3; font-size:15.0pt">Theme Transfomer</span>
 
 Shih, Y. J., Wu, S. L., Zalkow, F., Muller, M., & Yang, Y. H. (2022). Theme Transformer: Symbolic Music Generation with Theme-Conditioned Transformer. IEEE Transactions on Multimedia.
@@ -138,6 +146,12 @@ Shih, Y. J., Wu, S. L., Zalkow, F., Muller, M., & Yang, Y. H. (2022). Theme Tran
 
 ### <span id="2021deep" style="color:#A8FF9E; font-size:20.0pt">2021</span>
 
+
+#### <span id="compound-word" style="color:#FF9EC3; font-size:15.0pt">Compound Word Transformer</span>
+
+Hsiao, W. Y., Liu, J. Y., Yeh, Y. C., & Yang, Y. H. (2021, May). Compound word transformer: Learning to compose full-song music over dynamic directed hypergraphs. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 35, No. 1, pp. 178-186).
+
+[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16091) [GitHub](https://github.com/YatingMusic/compound-word-transformer)
 
 #### <span id="melody-lyrics-models" style="color:#FF9EC3; font-size:15.0pt">Melody Generation from Lyrics</span>
 
@@ -157,6 +171,13 @@ Mittal, G., Engel, J., Hawthorne, C., & Simon, I. (2021). Symbolic music generat
 [Paper](https://arxiv.org/abs/2103.16091) [GitHub](https://github.com/magenta/symbolic-music-diffusion)
 
 ### <span id="2020deep" style="color:#A8FF9E; font-size:20.0pt">2020</span>
+
+#### <span id="pop-musc-transfomer" style="color:#FF9EC3; font-size:15.0pt">Pop Musc Transfomer</span>
+
+Huang, Y. S., & Yang, Y. H. (2020, October). Pop music transformer: Beat-based modeling and generation of expressive pop piano compositions. In Proceedings of the 28th ACM International Conference on Multimedia (pp. 1180-1188).
+
+[Paper](https://dl.acm.org/doi/abs/10.1145/3394171.3413671) [GitHub](https://github.com/YatingMusic/remi)
+
 
 #### <span id="controllable-polyphonic" style="color:#FF9EC3; font-size:15.0pt">Controllable Polyphonic Music Generation</span>
 
@@ -407,6 +428,69 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 
 ## <span id="deep-learning-audio-generation" style="color:#9EB1FF; font-size:25.0pt">4. Audio Generation</span>
 
+### <span id="2023audiodeep" style="color:#A8FF9E; font-size:20.0pt">2023</span>
+
+#### <span id="vall-e-x-music" style="color:#FF9EC3; font-size:15.0pt">Vall-E X</span>
+
+Zhang, Z., Zhou, L., Wang, C., Chen, S., Wu, Y., Liu, S., ... & Wei, F. (2023). Speak Foreign Languages with Your Own Voice: Cross-Lingual Neural Codec Language Modeling. arXiv preprint arXiv:2303.03926.
+
+[Paper](https://arxiv.org/abs/2303.03926)
+
+#### <span id="ernie-music" style="color:#FF9EC3; font-size:15.0pt">ERNIE Music</span>
+
+Zhu, P., Pang, C., Wang, S., Chai, Y., Sun, Y., Tian, H., & Wu, H. (2023). ERNIE-Music: Text-to-Waveform Music Generation with Diffusion Models. arXiv preprint arXiv:2302.04456.
+
+[Paper](https://arxiv.org/abs/2302.04456)
+
+#### <span id="multi-source-diffusion-models" style="color:#FF9EC3; font-size:15.0pt">Multi-Source Diffusion Models</span>
+
+Mariani, G., Tallini, I., Postolache, E., Mancusi, M., Cosmo, L., & Rodolà, E. (2023). Multi-Source Diffusion Models for Simultaneous Music Generation and Separation. arXiv preprint arXiv:2302.02257.
+
+[Paper](https://arxiv.org/abs/2302.02257) [Samples](https://gladia-research-group.github.io/multi-source-diffusion-models/)
+
+#### <span id="singsong" style="color:#FF9EC3; font-size:15.0pt">SingSong</span>
+
+Donahue, C., Caillon, A., Roberts, A., Manilow, E., Esling, P., Agostinelli, A., ... & Engel, J. (2023). SingSong: Generating musical accompaniments from singing. arXiv preprint arXiv:2301.12662.
+
+[Paper](https://arxiv.org/abs/2301.12662) [Samples](https://storage.googleapis.com/sing-song/index.html)
+
+#### <span id="audioldm" style="color:#FF9EC3; font-size:15.0pt">AudioLDM</span>
+
+Liu, H., Chen, Z., Yuan, Y., Mei, X., Liu, X., Mandic, D., ... & Plumbley, M. D. (2023). AudioLDM: Text-to-Audio Generation with Latent Diffusion Models. arXiv preprint arXiv:2301.12503.
+
+[Paper](https://arxiv.org/abs/2301.12503) [Samples](https://audioldm.github.io/) [GitHub] (https://github.com/haoheliu/AudioLDM)
+
+#### <span id="mousai" style="color:#FF9EC3; font-size:15.0pt">Mousai</span>
+
+Schneider, F., Jin, Z., & Schölkopf, B. (2023). Mo\^ usai: Text-to-Music Generation with Long-Context Latent Diffusion. arXiv preprint arXiv:2301.11757.
+
+[Paper](https://arxiv.org/abs/2301.11757)
+
+#### <span id="make-an-audio" style="color:#FF9EC3; font-size:15.0pt">Make-An-Audio</span>
+
+Huang, R., Huang, J., Yang, D., Ren, Y., Liu, L., Li, M., ... & Zhao, Z. (2023). Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models. arXiv preprint arXiv:2301.12661.
+
+[Paper](https://arxiv.org/abs/2301.12661) [Samples](https://text-to-audio.github.io/)
+
+#### <span id="noise2music" style="color:#FF9EC3; font-size:15.0pt">Noise2Music</span>
+
+Huang, Q., Park, D. S., Wang, T., Denk, T. I., Ly, A., Chen, N., ... & Han, W. (2023). Noise2Music: Text-conditioned Music Generation with Diffusion Models. arXiv preprint arXiv:2302.03917.
+
+[Paper](https://arxiv.org/abs/2302.03917) [Samples](https://google-research.github.io/noise2music/)
+
+#### <span id="msanii" style="color:#FF9EC3; font-size:15.0pt">Msanii</span>
+
+Maina, K. (2023). Msanii: High Fidelity Music Synthesis on a Shoestring Budget. arXiv preprint arXiv:2301.06468.
+
+[Paper](https://arxiv.org/abs/2301.06468)
+
+#### <span id="musiclm" style="color:#FF9EC3; font-size:15.0pt">MusicLM</span>
+
+Agostinelli, A., Denk, T. I., Borsos, Z., Engel, J., Verzetti, M., Caillon, A., ... & Frank, C. (2023). Musiclm: Generating music from text. arXiv preprint arXiv:2301.11325.
+
+[Paper](https://arxiv.org/abs/2301.11325) [Samples](https://google-research.github.io/seanet/musiclm/examples/) [Dataset](https://www.kaggle.com/datasets/googleai/musiccaps)
+
+
 ### <span id="2022audiodeep" style="color:#A8FF9E; font-size:20.0pt">2022</span>
 
 #### <span id="musika" style="color:#FF9EC3; font-size:15.0pt">Musika</span>
@@ -414,6 +498,12 @@ Mozer, M. C. (1994). Neural network music composition by prediction: Exploring t
 Pasini, M., & Schlüter, J. (2022). Musika! Fast Infinite Waveform Music Generation. arXiv preprint arXiv:2208.08706.
 
 [Paper](https://arxiv.org/abs/2208.08706)
+
+#### <span id="audiolm" style="color:#FF9EC3; font-size:15.0pt">AudioLM</span>
+
+Borsos, Z., Marinier, R., Vincent, D., Kharitonov, E., Pietquin, O., Sharifi, M., ... & Zeghidour, N. (2022). Audiolm: a language modeling approach to audio generation. arXiv preprint arXiv:2209.03143.
+
+[Paper](https://arxiv.org/abs/2209.03143) [Samples](https://google-research.github.io/seanet/audiolm/examples/)
 
 ### <span id="2021audiodeep" style="color:#A8FF9E; font-size:20.0pt">2021</span>
 
