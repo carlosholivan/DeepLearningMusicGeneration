@@ -119,6 +119,12 @@ von Rütte, D., Biggio, L., Kilcher, Y., & Hoffman, T. (2022). FIGARO: Generatin
 
 ### <span id="2022deep" style="color:#A8FF9E; font-size:20.0pt">2022</span>
 
+#### <span id="museformer" style="color:#FF9EC3; font-size:15.0pt">Museformer</span>
+
+Yu, B., Lu, P., Wang, R., Hu, W., Tan, X., Ye, W., ... & Liu, T. Y. (2022). Museformer: Transformer with Fine-and Coarse-Grained Attention for Music Generation. NIPS 2022.
+
+[Paper](https://openreview.net/forum?id=GFiqdZOm-Ei) [NIPS Presentation](https://nips.cc/virtual/2022/poster/54604)
+
 #### <span id="bar-transformer" style="color:#FF9EC3; font-size:15.0pt">Bar Transformer</span>
 
 Qin, Y., Xie, H., Ding, S., Tan, B., Li, Y., Zhao, B., & Ye, M. (2022). Bar transformer: a hierarchical model for learning long-term structure and generating impressive pop music. Applied Intelligence, 1-19.
